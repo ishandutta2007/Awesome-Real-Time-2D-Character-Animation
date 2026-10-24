@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-2D-Character-Animation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Real-Time-2D-Character-Animation?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-2D-Character-Animation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Real-Time-2D-Character-Animation?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Real-Time-2D-Character-Animation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Real-Time-2D-Character-Animation?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Real-Time-2D-Character-Animation/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Real-Time-2D-Character-Animation/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
@@ -63,73 +63,73 @@ The table below compiles leading commercial platforms, sorted in descending orde
 
 ## 💻 Open-Source GitHub Projects
 
-The following repositories provide open-source codebases, libraries, editors, and runtimes for real-time 2D puppet rigging, facial motion tracking, and traditional animation. **Sorted in descending order by GitHub Star count**.
+The following repositories provide open-source codebases, libraries, editors, and runtimes for real-time 2D puppet rigging, facial motion tracking, and traditional animation. **Sorted in descending order by GitHub Stars_Count**.
 
-1. **[Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber)** [![GitHub stars](https://img.shields.io/github/stars/Open-LLM-VTuber/Open-LLM-VTuber?style=social&color=white)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/stargazers)  
+1. **[Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber)** [![GitHub_Stars](https://img.shields.io/github/stars/Open-LLM-VTuber/Open-LLM-VTuber?style=social&color=white)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/stargazers)  
    *Hands-free voice interaction, voice interruption, and Live2D 2D character avatar running locally across platforms.*  
    Integrates local LLMs, TTS engines, speech recognition, and Live2D parameter engines for autonomous, interactive, real-time 2D digital assistants and streaming companions.
 
-2. **[live2d-widget](https://github.com/stevenjoezhang/live2d-widget)** [![GitHub stars](https://img.shields.io/github/stars/stevenjoezhang/live2d-widget?style=social&color=white)](https://github.com/stevenjoezhang/live2d-widget/stargazers)  
+2. **[live2d-widget](https://github.com/stevenjoezhang/live2d-widget)** [![GitHub_Stars](https://img.shields.io/github/stars/stevenjoezhang/live2d-widget?style=social&color=white)](https://github.com/stevenjoezhang/live2d-widget/stargazers)  
    *Web-based real-time Live2D character animation widget for browser integration.*  
    Brings interactive, mouse-tracking, and scripted 2D puppets directly to web applications, blogs, and dashboards with minimal bundle size and broad model format support.
 
-3. **[Krita](https://github.com/KDE/krita)** [![GitHub stars](https://img.shields.io/github/stars/KDE/krita?style=social&color=white)](https://github.com/KDE/krita/stargazers)  
+3. **[Krita](https://github.com/KDE/krita)** [![GitHub_Stars](https://img.shields.io/github/stars/KDE/krita?style=social&color=white)](https://github.com/KDE/krita/stargazers)  
    *Professional free and open-source raster painting suite with integrated 2D frame animation timeline.*  
    Features onion skinning, audio track synchronization, raster timeline scrubbing, and high-performance brush engines. Excellent for hand-drawn frame sequences and asset prep for 2D puppets.
 
-4. **[OpenToonz](https://github.com/opentoonz/opentoonz)** [![GitHub stars](https://img.shields.io/github/stars/opentoonz/opentoonz?style=social&color=white)](https://github.com/opentoonz/opentoonz/stargazers)  
+4. **[OpenToonz](https://github.com/opentoonz/opentoonz)** [![GitHub_Stars](https://img.shields.io/github/stars/opentoonz/opentoonz?style=social&color=white)](https://github.com/opentoonz/opentoonz/stargazers)  
    *Studio-grade open-source 2D animation production software based on the legendary Toonz platform.*  
    Used extensively by Studio Ghibli. Combines traditional hand-drawn vector/raster pipelines with the "Plastic Tool" for mesh deformation, skeleton bone rigging, node-based compositing effects, and automatic line-work cleanup.
 
-5. **[hexo-helper-live2d](https://github.com/EYHN/hexo-helper-live2d)** [![GitHub stars](https://img.shields.io/github/stars/EYHN/hexo-helper-live2d?style=social&color=white)](https://github.com/EYHN/hexo-helper-live2d/stargazers)  
+5. **[hexo-helper-live2d](https://github.com/EYHN/hexo-helper-live2d)** [![GitHub_Stars](https://img.shields.io/github/stars/EYHN/hexo-helper-live2d?style=social&color=white)](https://github.com/EYHN/hexo-helper-live2d/stargazers)  
    *Seamless integration plugin for deploying interactive real-time Live2D characters into websites.*  
    Supports physics sway, customizable hit areas, touch gestures, and voice synthesis hooks across static site generators and web frontends.
 
-6. **[EasyVTuber](https://github.com/yuyuyzl/EasyVtuber)** [![GitHub stars](https://img.shields.io/github/stars/yuyuyzl/EasyVtuber?style=social&color=white)](https://github.com/yuyuyzl/EasyVtuber/stargazers)  
+6. **[EasyVTuber](https://github.com/yuyuyzl/EasyVtuber)** [![GitHub_Stars](https://img.shields.io/github/stars/yuyuyzl/EasyVtuber?style=social&color=white)](https://github.com/yuyuyzl/EasyVtuber/stargazers)  
    *Real-time 2D VTuber puppeteering from single anime illustrations.*  
    Based on Talking-Head-Anime neural models and webcam computer vision. Allows creators to drive head yaw, pitch, roll, blinking, and mouth shapes instantly from a single character portrait without manual rigging.
 
-7. **[Synfig Studio](https://github.com/synfig/synfig)** [![GitHub stars](https://img.shields.io/github/stars/synfig/synfig?style=social&color=white)](https://github.com/synfig/synfig/stargazers)  
+7. **[Synfig Studio](https://github.com/synfig/synfig)** [![GitHub_Stars](https://img.shields.io/github/stars/synfig/synfig?style=social&color=white)](https://github.com/synfig/synfig/stargazers)  
    *Industrial-grade open-source 2D vector animation suite with skeletal rigging.*  
    Eliminates manual frame-by-frame tweening through parametric vector interpolation. Offers a comprehensive bone rigging system, cut-out animation workflows, distortion layers, and mathematical expression linking.
 
-8. **[OpenSeeFace](https://github.com/emilianavt/OpenSeeFace)** [![GitHub stars](https://img.shields.io/github/stars/emilianavt/OpenSeeFace?style=social&color=white)](https://github.com/emilianavt/OpenSeeFace/stargazers)  
+8. **[OpenSeeFace](https://github.com/emilianavt/OpenSeeFace)** [![GitHub_Stars](https://img.shields.io/github/stars/emilianavt/OpenSeeFace?style=social&color=white)](https://github.com/emilianavt/OpenSeeFace/stargazers)  
    *Robust, lightweight real-time facial landmark tracking and expression pipeline.*  
    Runs directly on CPU/GPU via regular webcams. Powers tracking backends across numerous open-source 2D/3D VTuber tools, providing high-precision eye gaze, pupil dilation, 3D head pose, and mouth visemes.
 
-9. **[Talking Head Anime](https://github.com/pkhungurn/talking-head-anime-demo)** [![GitHub stars](https://img.shields.io/github/stars/pkhungurn/talking-head-anime-demo?style=social&color=white)](https://github.com/pkhungurn/talking-head-anime-demo/stargazers)  
+9. **[Talking Head Anime](https://github.com/pkhungurn/talking-head-anime-demo)** [![GitHub_Stars](https://img.shields.io/github/stars/pkhungurn/talking-head-anime-demo?style=social&color=white)](https://github.com/pkhungurn/talking-head-anime-demo/stargazers)  
    *Real-time neural animation of 2D anime character portraits from a single static image.*  
    Uses deep learning models to warp and synthesize anime facial expressions, head rotations, and eye movements in real time based on facial tracking inputs.
 
-10. **[Inochi2D](https://github.com/Inochi2D/inochi2d)** [![GitHub stars](https://img.shields.io/github/stars/Inochi2D/inochi2d?style=social&color=white)](https://github.com/Inochi2D/inochi2d/stargazers)  
+10. **[Inochi2D](https://github.com/Inochi2D/inochi2d)** [![GitHub_Stars](https://img.shields.io/github/stars/Inochi2D/inochi2d?style=social&color=white)](https://github.com/Inochi2D/inochi2d/stargazers)  
     *The reference open-source standard and runtime for real-time 2D puppet animation.*  
     Features runtime parameter-driven 2D mesh deformation, dynamic physics pendulums, real-time lighting shaders, and non-proprietary file formats. Multi-language bindings available in C (`inochi2d-c`) and Rust (`Inox2D`).
 
-11. **[Pencil2D](https://github.com/pencil2d/pencil)** [![GitHub stars](https://img.shields.io/github/stars/pencil2d/pencil?style=social&color=white)](https://github.com/pencil2d/pencil/stargazers)  
+11. **[Pencil2D](https://github.com/pencil2d/pencil)** [![GitHub_Stars](https://img.shields.io/github/stars/pencil2d/pencil?style=social&color=white)](https://github.com/pencil2d/pencil/stargazers)  
     *Lightweight, intuitive cross-platform traditional 2D animation app.*  
     Focuses on zero-friction hand-drawn animation with bitmap and vector drawing layers, onion skinning, and rapid keyframe sequencing. Ideal for animating sprite sheets and hand-drawn character loops.
 
-12. **[Inochi Creator](https://github.com/Inochi2D/inochi-creator)** [![GitHub stars](https://img.shields.io/github/stars/Inochi2D/inochi-creator?style=social&color=white)](https://github.com/Inochi2D/inochi-creator/stargazers)  
+12. **[Inochi Creator](https://github.com/Inochi2D/inochi-creator)** [![GitHub_Stars](https://img.shields.io/github/stars/Inochi2D/inochi-creator?style=social&color=white)](https://github.com/Inochi2D/inochi-creator/stargazers)  
     *Official open-source GUI rigging and puppet editor for the Inochi2D ecosystem.*  
     Imports layered PSD art files, generates triangulated deformation meshes, configures physics drivers for hair/clothing sway, sets up dynamic depth layers, and exports standardized `.inp` puppet files.
 
-13. **[Inochi Session](https://github.com/Inochi2D/inochi-session)** [![GitHub stars](https://img.shields.io/github/stars/Inochi2D/inochi-session?style=social&color=white)](https://github.com/Inochi2D/inochi-session/stargazers)  
+13. **[Inochi Session](https://github.com/Inochi2D/inochi-session)** [![GitHub_Stars](https://img.shields.io/github/stars/Inochi2D/inochi-session?style=social&color=white)](https://github.com/Inochi2D/inochi-session/stargazers)  
     *Real-time livestreaming and broadcast puppeteering tool for Inochi2D puppets.*  
     Connects webcam motion trackers (OpenSeeFace, VMC protocols), microphone lip-sync algorithms, and hotkeys to puppet parameters for live streaming and OBS integration.
 
-14. **[open-vt](https://github.com/erodozer/open-vt)** [![GitHub stars](https://img.shields.io/github/stars/erodozer/open-vt?style=social&color=white)](https://github.com/erodozer/open-vt/stargazers)  
+14. **[open-vt](https://github.com/erodozer/open-vt)** [![GitHub_Stars](https://img.shields.io/github/stars/erodozer/open-vt?style=social&color=white)](https://github.com/erodozer/open-vt/stargazers)  
     *Open-source desktop 2D VTuber software and runtime.*  
     Provides camera tracking, expression switching, and lightweight local rendering for creators seeking a clean, tracker-integrated alternative to commercial 2D live streaming applications.
 
-15. **[Umamo](https://github.com/umamoorg/umamo)** [![GitHub stars](https://img.shields.io/github/stars/umamoorg/umamo?style=social&color=white)](https://github.com/umamoorg/umamo/stargazers)  
+15. **[Umamo](https://github.com/umamoorg/umamo)** [![GitHub_Stars](https://img.shields.io/github/stars/umamoorg/umamo?style=social&color=white)](https://github.com/umamoorg/umamo/stargazers)  
     *Cross-platform open-source 2D puppet rigging editor.*  
     Engineered with first-class pen, tablet, and touch support. Designed as a modern, open-source alternative to proprietary rigging tools with intuitive mesh deformation tools.
 
-16. **[Glaxnimate](https://github.com/mbasaglia/glaxnimate)** [![GitHub stars](https://img.shields.io/github/stars/mbasaglia/glaxnimate?style=social&color=white)](https://github.com/mbasaglia/glaxnimate/stargazers)  
+16. **[Glaxnimate](https://github.com/mbasaglia/glaxnimate)** [![GitHub_Stars](https://img.shields.io/github/stars/mbasaglia/glaxnimate?style=social&color=white)](https://github.com/mbasaglia/glaxnimate/stargazers)  
     *Fast vector graphics animation program with real-time preview.*  
     Supports Lottie, SVG, Rive, and vector tweening. Integrates with video editors (Kdenlive, Shotcut) to deliver real-time vector overlays and interactive animated character graphics.
 
-17. **[ChibiRigKit](https://github.com/milkc0de/ChibiRigKit)** [![GitHub stars](https://img.shields.io/github/stars/milkc0de/ChibiRigKit?style=social&color=white)](https://github.com/milkc0de/ChibiRigKit/stargazers)  
+17. **[ChibiRigKit](https://github.com/milkc0de/ChibiRigKit)** [![GitHub_Stars](https://img.shields.io/github/stars/milkc0de/ChibiRigKit?style=social&color=white)](https://github.com/milkc0de/ChibiRigKit/stargazers)  
     *Browser-based single-image automated 2D rigging toolkit.*  
     Ingests a single PNG illustration and automatically partitions eye, mouth, hair, and body layers. Integrates real-time webcam face tracking, mic lip-sync, and direct OBS browser-source streaming over localhost.
 
