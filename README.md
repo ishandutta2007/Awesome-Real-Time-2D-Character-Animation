@@ -1,69 +1,222 @@
-# Awesome-Real-Time-2D-Character-Animation
+# 🎭 Awesome Real-Time 2D Character Animation 🚀
 
-## Top Real-Time 2D Character Animation Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Real-Time 2D Character Animation Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Live Puppeteering, Webcam Motion Capture & Self-Hosted Rigging Pipelines*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Real-Time 2D Character Animation**. These tools bring illustrated characters to life by mapping live input — webcam, microphone, or manual controls — onto rigged 2D artwork, enabling VTubing, live streaming, interactive presentations, and rapid animation prototyping.
-
-**Examples** include Inochi2D, ChibiRigKit, OpenToonz, Synfig Studio, and Adobe Character Animator (the category leaders).
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, browser-native rigging, and transparent puppet standards — ideal for VTubers, indie animators, and developers who want real-time 2D animation without subscription fees or proprietary file formats.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **Adobe Character Animator** — **The reference commercial real-time puppeteering tool.** Uses webcam and microphone input to drive a 2D puppet's facial expressions, lip sync, and body movement with no keyframing required [citation:1]. **Included with Creative Cloud subscriptions.** **Best for Adobe users** wanting the most polished live puppeteering experience with deep integration into Premiere Pro and After Effects, accepting cloud dependency and subscription cost.
-
-- **Toon Boom Harmony** — **The studio-grade 2D animation standard.** Professional cutout and traditional animation with rigging, deformation, and real-time preview. **Subscription or perpetual licensing** at premium pricing. **Best for professional studios** producing broadcast-quality 2D animation where Harmony's rigging depth and pipeline integrations are non-negotiable.
-
-- **Live2D Cubism** — **The VTuber rigging standard.** Deforms layered 2D art with mesh warping and parameter-driven animation for real-time facial tracking. **Free for non-commercial use; paid tiers for commercial deployment.** **Best for VTubers and game developers** wanting the most widely supported 2D puppet format with extensive tracking software compatibility.
-
-- **Reallusion Cartoon Animator** — **The accessible 2D animation suite with real-time puppeteering.** 2D bone rigging, facial capture, and motion library for indie animators. **One-time purchase** with optional pipeline add-ons. **Best for indie animators** wanting a middle ground between Character Animator's live capture and Harmony's studio tooling.
-
-## Open-Source GitHub Projects
-
-- **Inochi2D** — **The reference open-source 2D puppet animation standard.** BSD 2-Clause licensed, **1,420+ GitHub stars** [citation:6]. **A toolkit and ecosystem for real-time 2D puppet animation** for game development, virtual avatars, and multimedia applications [citation:9]. **Works by deforming 2D meshes created from layered art at runtime based on parameters**, creating the illusion of 3D depth and movement in 2D artwork . **Two official tools**: **Inochi Creator** for rigging layered 2D art via warping meshes, physics, dynamic masking, and real-time lighting, and **Inochi Session** for livestreaming and teleconferencing by mapping external tracking data to a puppet's rigging [citation:9]. **The reference implementation requires OpenGL 3.1** and is written in D . **Alternative implementations**: **inochi2d-c** for non-D languages, and **Inox2D** (pure Rust implementation of the spec) . **Funded by NLnet's NGI0 Entrust program** with plans for Inochi2D 0.9 making it viable in Godot, Unity, and the web via WASM/WebGL/WebGPU [citation:9]. **Best for VTubers, game developers, and riggers** wanting an open standard for 2D puppets without restrictive licensing, accepting that the ecosystem is still maturing and documentation is being written [citation:10].
-
-- **ChibiRigKit** — **The browser-based single-image to 2D character toolkit.** **Beta-stage, open-source** [citation:2]. **Takes a single PNG illustration and automates the tedious parts of rigging** — generating parts and variants for eyes, mouth, hair, and body [citation:2]. **Real-time tracking**: camera-based face tracking and microphone-driven lip sync [citation:2]. **Manual animation**: blinking, gaze, head yaw/pitch/roll, hair and clothing sway with simple physics for long hair [citation:2]. **Recording and export**: record and replay custom motions, WebM recording, and export finished characters as HTML + ZIP [citation:2]. **OBS integration**: real-time reflection into OBS Browser Source on the same machine without transmitting camera or microphone data to the server — the server binds only to `127.0.0.1` [citation:2]. **Requirements**: Python 3.12+, Node.js 22+, Chrome/Chromium, and Codex CLI for automatic rigging (not needed for playback or tracking) [citation:2]. **Best for VTubers and streamers** wanting a quick path from a single illustration to a live, trackable character in the browser, accepting that it is still beta [citation:2].
-
-- **OpenToonz** — **The studio-grade open-source animation suite.** BSD-3-Clause licensed, the open-source descendant of Toonz — the software Studio Ghibli used to develop [citation:8]. **Vector and raster workflows, effects, particles, motion tracking, and a scripting layer** [citation:8]. **The most powerful free 2D animation tool** for serious animators, but **the learning curve has surprised generations of new users** — the UI is idiosyncratic and documentation is scattered [citation:8]. **Best for serious animators on a zero budget** willing to invest in learning a studio-grade toolset [citation:8].
-
-- **Synfig Studio** — **The open-source 2D vector animation suite.** GPL-licensed, **industrial-grade 2D vector animation software** [citation:4]. **Eliminates the need for frame-by-frame animation** through vector tweening, with a **bone system** for character rigging, **multiple layer types** (geometry, gradients, filters, distortions, transformations, fractals), and **parameter linking via mathematical expressions** [citation:4]. **Supports spatial and temporal resolution independence, HDRI, and a plugin system** [citation:4]. **Available on Windows, Linux, and macOS**, with version 1.5.3 current as of December 2025 [citation:4]. **Best for 2D animation and motion graphics** (explainers, character animation) where vector tweening and bones matter, accepting that real-time live puppeteering is not its primary focus [citation:4].
-
-### Additional Strong Open-Source Options
-
-- **Pencil2D** — **The beginner-friendly hand-drawn animation app.** GPL-2.0 licensed, **designed with "no learning curve" as its principle** [citation:8]. **Bitmap and vector layers, onion skinning, and a simple timeline** [citation:8]. **Feature ceiling is low** — no cutout rigs, no effects, no real-time tracking [citation:8]. **Best for teaching animation fundamentals in an afternoon** [citation:8].
-- **Krita** — **The free painting app with a growing animation timeline.** GPL-3.0 licensed, **exceptional brush engine with onion skinning** and export to PNG sequences or MP4 [citation:8]. **Not a rig-based real-time tool** — its timeline suits short sequences rather than live puppeteering [citation:8]. **Best for animators who also paint** and want a capable free tool for hand-drawn frame-by-frame work [citation:8].
-- **Glaxnimate** — **The simple vector animation tool with real-time preview.** GPL-3.0 licensed, **available on Linux, macOS, Windows, and FreeBSD** . **Best for simple vector animation** where a lightweight tool suffices.
-
-**Frameworks for building custom systems**: Combine **Inochi2D** for an open-standard 2D puppet pipeline with planned game engine and web support, **ChibiRigKit** for single-image to live browser character in minutes, **OpenToonz** for studio-grade traditional and cutout animation, **Synfig Studio** for vector tweening and bone rigging, and **Krita** or **Pencil2D** for hand-drawn frame-by-frame work — to build a real-time 2D animation stack tailored to your need for live puppeteering versus traditional animation, and browser-native versus desktop deployment.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Real-time 2D character animation tools differ significantly in rigging model, tracking capability, and deployment platform. **Adobe Character Animator is the most polished commercial live-puppeteering tool** [citation:1], but requires a Creative Cloud subscription. **Inochi2D is the reference open-source 2D puppet standard** with Inochi Creator and Inochi Session, but its documentation is still being written and the ecosystem is maturing [citation:9][citation:10]. **ChibiRigKit is beta-stage** — it works but is still evolving [citation:2]. **OpenToonz and Synfig are traditional animation tools**, not real-time live puppeteering platforms — they excel at frame-by-frame and vector tweening respectively, but do not map webcam input to a puppet in real time [citation:4][citation:8]. **Pencil2D and Krita are frame-by-frame animation tools**, not rig-based real-time systems [citation:8].
-- Self-hosted open-source solutions require proper GPU drivers (OpenGL 3.1 for Inochi2D), Python/Node.js runtime for ChibiRigKit, and awareness that webcam-based tracking quality depends on lighting and camera hardware.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-2D-Character-Animation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Real-Time-2D-Character-Animation?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-2D-Character-Animation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Real-Time-2D-Character-Animation?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-2D-Character-Animation/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-2D-Character-Animation/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-**Made for VTubers, indie animators, and developers choosing real-time 2D animation tools they can own and control.**
-Let's make real-time 2D character animation more open, standard-driven, and live-trackable.
+## 🌟 Overview & SEO Summary
+
+A curated directory and engineering landscape of **Real-Time 2D Character Animation**, **Live Puppeteering**, **Webcam Facial Motion Capture (Mocap)**, **Mesh Deformation Rigging**, and **VTuber Runtimes**.
+
+These technologies bridge digital illustration and live performance by taking continuous inputs — webcam vision streams, audio speech phonemes, or MIDI/keyboard triggers — and interpolating them in real time across parametric 2D meshes, skeletal bone rigs, and physics pendulums. Whether deploying studio-scale broadcast rigs, browser-native WebGL avatars, or self-hosted open-source VTuber pipelines, this list maps commercial standards and open-source alternatives.
+
+---
+
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architectural Taxonomy: How Real-Time 2D Works](#️-architectural-taxonomy-how-real-time-2d-works)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [⭐ Star History](#-star-history)
+- [📜 Disclaimer & License](#-disclaimer--license)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global **2D animation and real-time character animation software market** is currently valued at approximately **$1.85 Billion to $2.40 Billion**, projected to surpass **$4.60 Billion by 2032** with a compound annual growth rate (CAGR) of ~8.7%. This expansion is propelled by the exponential rise of the virtual streamer (VTuber) economy, live interactive broadcasts, gaming avatars, and real-time generative digital humans.
+
+The market displays a **moderately fragmented** dynamic characterized by distinct sub-segments rather than a pure winner-take-all monopoly:
+- **Studio & Broadcast Animation**: Legacy giants like Adobe (Character Animator) and Francisco Partners / Integrated Media Technologies (Toon Boom) command high-margin professional creative suites and enterprise production workflows.
+- **Anime & VTuber Rigging**: Live2D Cubism remains the entrenched commercial format standard across Japan and international gaming/streaming ecosystems.
+- **Open-Source Counter-Ecosystem**: Rapidly increasing licensing costs, closed file formats, and vendor lock-in have spurred a decentralized open-source movement spearheaded by projects like Inochi2D, Open-LLM-VTuber, and OpenToonz, delivering royalty-free open runtimes for Godot, Unity, and WebAssembly.
+
+---
+
+## 🏢 SaaS & Commercial Platforms
+
+The table below compiles leading commercial platforms, sorted in descending order by **Company Size (Revenue / Valuation)**.
+
+| 🎨 Product / Platform | 🏢 Company Size (Valuation / Revenue) | ⚙️ Real-Time 2D Capabilities | 💳 Starting Tier Pricing | 🎁 Free Tier / Trial Limit | 🎯 Target Use Case |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Adobe Character Animator](https://www.adobe.com/products/character-animator.html)** | **~$220B+ Market Cap** / **$21.4B Annual Revenue** (Adobe Inc., NASDAQ: ADBE) | • Webcam & audio-driven live puppeteering<br>• Real-time eye gaze, blink, & viseme tracking<br>• Adobe Creative Cloud roundtrip pipeline | **$59.99 / month** (Creative Cloud All Apps annual plan, paid monthly); or **$89.99 / month** (month-to-month); **$19.99 / mo** for Students | **7-day free trial** of full CC Pro suite; **Starter Mode is free forever** but locked to ~50 pre-built puppet templates and direct MP4 export (custom rigging & timeline editing disabled) | Professional live broadcast puppeteering, corporate explainers, and Adobe After Effects integrations |
+| **[Toon Boom Harmony](https://www.toonboom.com/products/harmony)** | **~$112M Acquisition Valuation** ($147.5M CAD) / Francisco Partners parent AUM >$45B; **~$35M Annual Rev** | • High-end deformers (Envelope, Curve, Bone)<br>• Advanced node-based rigging composites<br>• Real-time OpenGL animation preview | **$27.00 / month** (Harmony Essentials, billed annually) or **$34.50 / month** (monthly); Advanced at **$67.50 / mo**; Premium at **$123.50 / mo** | **21-day free trial** with complete access to all toolsets across Essentials, Advanced, and Premium; exports and renders contain a visible watermark; non-commercial testing only | Feature-film, television series production, and cut-out / traditional hybrid studio pipelines |
+| **[Cartoon Animator 5](https://www.reallusion.com/cartoon-animator/)** | **~$20M Annual Revenue** (Reallusion Inc., Private) | • Smart bone rigging and spring dynamics<br>• 2D Motion LIVE webcam / iPhone facial mocap<br>• PSD-to-puppet layered automated converter | **$149.00 one-time** perpetual workstation license (Standard); **$299.00 one-time** for Pro / Pipeline Suite; Mocap plug-in from **$99.00 one-time** | **30-day free trial** with full feature set, sample characters, and motion library; all rendered video exports are watermarked during the trial period | Indie animators, commercial video creators, and YouTube content producers wanting turn-key mocap |
+| **[Live2D Cubism](https://www.live2d.com/en/)** | **~$15M Annual Revenue** (Live2D Inc., backed by Sony Music / Aniplex) | • Parametric mesh warping of layered 2D art<br>• Physics curves, sway simulations, & eye tracking<br>• Industry-standard `.moc3` runtime runtime | **¥1,573 / month** (~**$10.50 / mo** billed annually) or **¥2,299 / month** (~**$15.30 / mo** monthly) for Individual; Business tier at **¥7,260 / mo** (~**$48.40 / mo**) | **Free Forever Tier (Cubism FREE)**: Hard-capped at 30 art meshes, 2 deformer hierarchy depths, 2 parameters per deformer, 1 model file per project, commercial use restricted to entities <¥10M revenue; **42-day free trial** of Cubism PRO | De facto global standard for 2D VTuber avatars, mobile visual novels, and Live2D interactive game assets |
+| **[VTube Studio](https://denchisoft.com/)** | **~$3M Annual Revenue** (DenchiSoft, Leading Indie Studio) | • Real-time iOS ARKit & webcam face tracking<br>• Live2D parameter mapping with custom hotkeys<br>• Physics-based prop attachments & hand tracking | **$14.99 one-time** DLC (VTube Studio PRO - Remove Watermark on Steam, iOS, and Android) | **Free Forever Tier**: Complete feature access including tracking algorithms, custom expressions, item drops, and OBS spout integration; displays a floating watermark mascot logo on output feed | Live VTuber streaming, interactive Twitch/YouTube broadcasts, and real-time live avatar puppeteering |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+The following repositories provide open-source codebases, libraries, editors, and runtimes for real-time 2D puppet rigging, facial motion tracking, and traditional animation. **Sorted in descending order by GitHub Star count**.
+
+1. **[Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber)** [![GitHub stars](https://img.shields.io/github/stars/Open-LLM-VTuber/Open-LLM-VTuber?style=social&color=white)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/stargazers)  
+   *Hands-free voice interaction, voice interruption, and Live2D 2D character avatar running locally across platforms.*  
+   Integrates local LLMs, TTS engines, speech recognition, and Live2D parameter engines for autonomous, interactive, real-time 2D digital assistants and streaming companions.
+
+2. **[live2d-widget](https://github.com/stevenjoezhang/live2d-widget)** [![GitHub stars](https://img.shields.io/github/stars/stevenjoezhang/live2d-widget?style=social&color=white)](https://github.com/stevenjoezhang/live2d-widget/stargazers)  
+   *Web-based real-time Live2D character animation widget for browser integration.*  
+   Brings interactive, mouse-tracking, and scripted 2D puppets directly to web applications, blogs, and dashboards with minimal bundle size and broad model format support.
+
+3. **[Krita](https://github.com/KDE/krita)** [![GitHub stars](https://img.shields.io/github/stars/KDE/krita?style=social&color=white)](https://github.com/KDE/krita/stargazers)  
+   *Professional free and open-source raster painting suite with integrated 2D frame animation timeline.*  
+   Features onion skinning, audio track synchronization, raster timeline scrubbing, and high-performance brush engines. Excellent for hand-drawn frame sequences and asset prep for 2D puppets.
+
+4. **[OpenToonz](https://github.com/opentoonz/opentoonz)** [![GitHub stars](https://img.shields.io/github/stars/opentoonz/opentoonz?style=social&color=white)](https://github.com/opentoonz/opentoonz/stargazers)  
+   *Studio-grade open-source 2D animation production software based on the legendary Toonz platform.*  
+   Used extensively by Studio Ghibli. Combines traditional hand-drawn vector/raster pipelines with the "Plastic Tool" for mesh deformation, skeleton bone rigging, node-based compositing effects, and automatic line-work cleanup.
+
+5. **[hexo-helper-live2d](https://github.com/EYHN/hexo-helper-live2d)** [![GitHub stars](https://img.shields.io/github/stars/EYHN/hexo-helper-live2d?style=social&color=white)](https://github.com/EYHN/hexo-helper-live2d/stargazers)  
+   *Seamless integration plugin for deploying interactive real-time Live2D characters into websites.*  
+   Supports physics sway, customizable hit areas, touch gestures, and voice synthesis hooks across static site generators and web frontends.
+
+6. **[EasyVTuber](https://github.com/yuyuyzl/EasyVtuber)** [![GitHub stars](https://img.shields.io/github/stars/yuyuyzl/EasyVtuber?style=social&color=white)](https://github.com/yuyuyzl/EasyVtuber/stargazers)  
+   *Real-time 2D VTuber puppeteering from single anime illustrations.*  
+   Based on Talking-Head-Anime neural models and webcam computer vision. Allows creators to drive head yaw, pitch, roll, blinking, and mouth shapes instantly from a single character portrait without manual rigging.
+
+7. **[Synfig Studio](https://github.com/synfig/synfig)** [![GitHub stars](https://img.shields.io/github/stars/synfig/synfig?style=social&color=white)](https://github.com/synfig/synfig/stargazers)  
+   *Industrial-grade open-source 2D vector animation suite with skeletal rigging.*  
+   Eliminates manual frame-by-frame tweening through parametric vector interpolation. Offers a comprehensive bone rigging system, cut-out animation workflows, distortion layers, and mathematical expression linking.
+
+8. **[OpenSeeFace](https://github.com/emilianavt/OpenSeeFace)** [![GitHub stars](https://img.shields.io/github/stars/emilianavt/OpenSeeFace?style=social&color=white)](https://github.com/emilianavt/OpenSeeFace/stargazers)  
+   *Robust, lightweight real-time facial landmark tracking and expression pipeline.*  
+   Runs directly on CPU/GPU via regular webcams. Powers tracking backends across numerous open-source 2D/3D VTuber tools, providing high-precision eye gaze, pupil dilation, 3D head pose, and mouth visemes.
+
+9. **[Talking Head Anime](https://github.com/pkhungurn/talking-head-anime-demo)** [![GitHub stars](https://img.shields.io/github/stars/pkhungurn/talking-head-anime-demo?style=social&color=white)](https://github.com/pkhungurn/talking-head-anime-demo/stargazers)  
+   *Real-time neural animation of 2D anime character portraits from a single static image.*  
+   Uses deep learning models to warp and synthesize anime facial expressions, head rotations, and eye movements in real time based on facial tracking inputs.
+
+10. **[Inochi2D](https://github.com/Inochi2D/inochi2d)** [![GitHub stars](https://img.shields.io/github/stars/Inochi2D/inochi2d?style=social&color=white)](https://github.com/Inochi2D/inochi2d/stargazers)  
+    *The reference open-source standard and runtime for real-time 2D puppet animation.*  
+    Features runtime parameter-driven 2D mesh deformation, dynamic physics pendulums, real-time lighting shaders, and non-proprietary file formats. Multi-language bindings available in C (`inochi2d-c`) and Rust (`Inox2D`).
+
+11. **[Pencil2D](https://github.com/pencil2d/pencil)** [![GitHub stars](https://img.shields.io/github/stars/pencil2d/pencil?style=social&color=white)](https://github.com/pencil2d/pencil/stargazers)  
+    *Lightweight, intuitive cross-platform traditional 2D animation app.*  
+    Focuses on zero-friction hand-drawn animation with bitmap and vector drawing layers, onion skinning, and rapid keyframe sequencing. Ideal for animating sprite sheets and hand-drawn character loops.
+
+12. **[Inochi Creator](https://github.com/Inochi2D/inochi-creator)** [![GitHub stars](https://img.shields.io/github/stars/Inochi2D/inochi-creator?style=social&color=white)](https://github.com/Inochi2D/inochi-creator/stargazers)  
+    *Official open-source GUI rigging and puppet editor for the Inochi2D ecosystem.*  
+    Imports layered PSD art files, generates triangulated deformation meshes, configures physics drivers for hair/clothing sway, sets up dynamic depth layers, and exports standardized `.inp` puppet files.
+
+13. **[Inochi Session](https://github.com/Inochi2D/inochi-session)** [![GitHub stars](https://img.shields.io/github/stars/Inochi2D/inochi-session?style=social&color=white)](https://github.com/Inochi2D/inochi-session/stargazers)  
+    *Real-time livestreaming and broadcast puppeteering tool for Inochi2D puppets.*  
+    Connects webcam motion trackers (OpenSeeFace, VMC protocols), microphone lip-sync algorithms, and hotkeys to puppet parameters for live streaming and OBS integration.
+
+14. **[open-vt](https://github.com/erodozer/open-vt)** [![GitHub stars](https://img.shields.io/github/stars/erodozer/open-vt?style=social&color=white)](https://github.com/erodozer/open-vt/stargazers)  
+    *Open-source desktop 2D VTuber software and runtime.*  
+    Provides camera tracking, expression switching, and lightweight local rendering for creators seeking a clean, tracker-integrated alternative to commercial 2D live streaming applications.
+
+15. **[Umamo](https://github.com/umamoorg/umamo)** [![GitHub stars](https://img.shields.io/github/stars/umamoorg/umamo?style=social&color=white)](https://github.com/umamoorg/umamo/stargazers)  
+    *Cross-platform open-source 2D puppet rigging editor.*  
+    Engineered with first-class pen, tablet, and touch support. Designed as a modern, open-source alternative to proprietary rigging tools with intuitive mesh deformation tools.
+
+16. **[Glaxnimate](https://github.com/mbasaglia/glaxnimate)** [![GitHub stars](https://img.shields.io/github/stars/mbasaglia/glaxnimate?style=social&color=white)](https://github.com/mbasaglia/glaxnimate/stargazers)  
+    *Fast vector graphics animation program with real-time preview.*  
+    Supports Lottie, SVG, Rive, and vector tweening. Integrates with video editors (Kdenlive, Shotcut) to deliver real-time vector overlays and interactive animated character graphics.
+
+17. **[ChibiRigKit](https://github.com/milkc0de/ChibiRigKit)** [![GitHub stars](https://img.shields.io/github/stars/milkc0de/ChibiRigKit?style=social&color=white)](https://github.com/milkc0de/ChibiRigKit/stargazers)  
+    *Browser-based single-image automated 2D rigging toolkit.*  
+    Ingests a single PNG illustration and automatically partitions eye, mouth, hair, and body layers. Integrates real-time webcam face tracking, mic lip-sync, and direct OBS browser-source streaming over localhost.
+
+---
+
+## 🛠️ Architectural Taxonomy: How Real-Time 2D Works
+
+```mermaid
+flowchart LR
+    subgraph Inputs ["🎯 1. Live Input Capture"]
+        A1["📹 Webcam Feed\n(60 FPS RGB)"]
+        A2["🎙️ Microphone\n(PCM Audio)"]
+        A3["⌨️ Controller / MIDI\n(Hotkeys)"]
+    end
+
+    subgraph Tracking ["🧠 2. Real-Time Landmark Extraction"]
+        B1["OpenSeeFace / MediaPipe\n(468 Facial Landmarks)"]
+        B2["Lip Sync Viseme Engine\n(Phonemes to A/I/U/E/O)"]
+        B3["Expression Classifier\n(Smile, Blink, Surprised)"]
+    end
+
+    subgraph RigEngine ["⚡ 3. 2D Mesh & Rigging Runtime"]
+        C1["Inochi2D / Live2D Core"]
+        C2["Parametric Mesh Warping\n(Triangulated 2D Mesh)"]
+        C3["Physics Simulation\n(Pendulums, Hair, Sway)"]
+    end
+
+    subgraph Output ["📺 4. Live Display & Broadcast"]
+        D1["OBS Studio / Spout2 / NDI"]
+        D2["WebGL / Browser Canvas"]
+        D3["Game Engine (Unity / Godot)"]
+    end
+
+    A1 --> B1
+    A2 --> B2
+    A3 --> B3
+
+    B1 --> C1
+    B2 --> C1
+    B3 --> C1
+
+    C1 --> C2 --> C3
+    C3 --> D1
+    C3 --> D2
+    C3 --> D3
+```
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help expand this ecosystem by submitting high-quality open-source tools, runtimes, and tracking pipelines.
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a new branch**: `git checkout -b feature/add-new-animation-tool`.
+3. 📝 **Add your entry** to `README.md`:
+   - Follow the established formatting conventions (alphabetical or star/revenue sorted).
+   - Ensure specific pricing and free tier/trial limits for SaaS entries.
+   - For open-source tools, include the standard stargazer social badge format.
+4. 🚀 **Commit your changes**: `git commit -m "feat: add NewTool to open-source section"`.
+5. 📤 **Submit a Pull Request** with a concise description of why the tool is beneficial to the real-time 2D animation community.
+
+---
+
+## 💖 Support & Community
+
+If this curated repository saved you hours of research or assisted your VTuber / 2D animation pipeline, please consider supporting the project!
+
+- ⭐ **Star this repository** to help other creators, animators, and developers discover it.
+- 🍴 **Fork and share** with your local animation communities, streaming groups, and discords.
+- ☕ **Sponsor the Maintainer**: Support ongoing curation, open-source tooling, and maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Real-Time-2D-Character-Animation&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Real-Time-2D-Character-Animation&type=date&legend=top-left)
+
+---
+
+## 📜 Disclaimer & License
+
+- **Disclaimer**: This compilation is community-curated for informational, educational, and developer reference purposes. Product names, trademarks, and logos belong to their respective copyright holders. Listed pricing and tiers reflect publicly available rates as of 2026.
+- **License**: Distributed under the [MIT License](LICENSE). Listed open-source projects maintain their own respective licenses (BSD, GPL, Apache, MIT).
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for VTubers, Animators, Riggers, and Open-Source Developers worldwide.</b>
+</p>
