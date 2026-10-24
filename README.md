@@ -1,6 +1,6 @@
 # Awesome-Real-Time-2D-Character-Animation
 
-# Top Real-Time 2D Character Animation Ecosystem
+## Top Real-Time 2D Character Animation Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Live Puppeteering, Webcam Motion Capture & Self-Hosted Rigging Pipelines*  
